@@ -29,8 +29,8 @@ import (
 )
 
 const (
-	BatchRequestLimit    = 1000
-	BatchResponseMaxSize = 25 * 1000 * 1000
+	BatchRequestLimit    = 2500
+	BatchResponseMaxSize = 250 * 1000 * 1000
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that
